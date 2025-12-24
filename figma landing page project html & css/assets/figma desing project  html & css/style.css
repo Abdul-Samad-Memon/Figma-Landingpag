@@ -1,0 +1,51 @@
+:root{
+    ---darker-color:#393956;
+    ---dark-color:#1c1c31;
+    ---lighting-color:#323244;
+    ---secondry-color:#171726;
+}
+body{
+    height: 100%;
+    width: 100%;
+ 
+    /* background:var(---darker-color); */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 60.5%;
+}
+html, body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 3rem;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    color: white;
+}
+body{
+    font-size: 1.4rem;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background: var(---lighting-color);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
